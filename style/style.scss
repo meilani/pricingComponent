@@ -1,4 +1,17 @@
 /**************
+    VARIABLES
+**************/
+$text-font: 'Montserrat', sans-serif;
+$text-size: 15px;
+$text-weight: 700;
+$gradient: linear-gradient(hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+$veryLightBlue: #f7f7fe;
+$LightBlue: #d0d5f6;
+$grayBlue: #6e728e;
+$darkBlue: #4a4d60;
+$blue: #6D72DE;
+
+/**************
     GENERAL
 **************/
 
@@ -9,8 +22,8 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-family: $text-font;
+    font-weight: $text-weight;
 }
 
 /**************
