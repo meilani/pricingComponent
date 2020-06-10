@@ -13,44 +13,58 @@
   <script src="/js/main.js" async></script>
   <title>Frontend Mentor | [Challenge Name Here]</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-
-  </style>
 </head>
 <body>
 
-  Our Pricing
-  Annually
-  Monthly
+  <header>
+    <h1>Our Pricing</h1>
+    <div class="switch">
+      <p>Annually</p> 
+      <input type="checkbox" id="checkbox" name="checkbox">
+      <p>Monthly</p>
+    </div>
+  </header>
 
-  Basic
-  &dollar;19.99
-  &dollar;199.99
-  500 GB Storage
-  2 Users Allowed
-  Send up to 3 GB
-  Learn More
+  <main>
 
-  Professional
-  &dollar;24.99
-  &dollar;249.99
-  1 TB Storage
-  5 Users Allowed
-  Send up to 10 GB
-  Learn More
+    <section class="card" id="card-1">
+      <h2>Basic</h2>
+      <p class="monthly cost">&dollar;19.99</p>
+      <p class="annually cost">&dollar;199.99</p>
+      <p>500 GB Storage</p>
+      <p>2 Users Allowed</p>
+      <p>Send up to 3 GB</p>
+      <button type="button">Learn More</button>  
+    </section>
 
-  Master
-  &dollar;39.99
-  &dollar;399.99
-  2 TB Storage
-  10 Users Allowed
-  Send up to 20 GB
-  Learn More
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <section class="card" id="card-2">
+      <h2>Professional</h2>
+      <p class="monthly cost">&dollar;24.99</p>
+      <p class="annually cost">&dollar;249.99</p>
+      <p>1 TB Storage</p>
+      <p>5 Users Allowed</p>
+      <p>Send up to 10 GB</p>
+      <button type="button">Learn More</button>
+    </section>
+
+    <section class="card" id="card-3">
+      <h2>Master</h2>
+      <p>&dollar;39.99</p>
+      <p>&dollar;399.99</p>
+      <p>2 TB Storage</p>
+      <p>10 Users Allowed</p>
+      <p>Send up to 20 GB</p>
+      <button type="button">Learn More</button>
+    </section>
+    
+  </main>
+
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+
 </body>
 </html>
