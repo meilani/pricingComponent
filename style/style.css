@@ -211,10 +211,13 @@ main .card button {
   font-weight: 700;
   border-radius: 6px;
   cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 main .card button:hover {
   background: none;
+  background-color: #fff;
   color: #6D72DE;
   border-color: #6D72DE;
 }
@@ -250,6 +253,8 @@ main #card-2 .button-2 {
   background: none;
   background-color: #fff;
   color: #6D72DE;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 main #card-2 .button-2:hover {
