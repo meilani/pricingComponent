@@ -186,10 +186,12 @@ main {
             font-weight: $text-weight;
             border-radius: 6px;
             cursor: pointer;
+            transition: .5s;
         }
 
         button:hover {
             background: none;
+            background-color: #fff;
             color: $blue;
             border-color: $blue;
         }
@@ -226,6 +228,7 @@ main {
             background: none;
             background-color: #fff;
             color: $blue;
+            transition: .5s;
         }
 
         .button-2:hover {
