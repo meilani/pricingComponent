@@ -265,11 +265,11 @@ main #card-2 .button-2:hover {
 }
 
 .monthly {
-  display: none;
+  display: block;
 }
 
 .annually {
-  display: block;
+  display: none;
 }
 
 /**************
