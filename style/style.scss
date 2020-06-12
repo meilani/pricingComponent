@@ -47,6 +47,7 @@ header {
         font-size: 32px;
         line-height: 39px;
         margin-bottom: 40px;
+        text-align: center;
     }
 
     .switch {
@@ -117,7 +118,7 @@ header {
   }
   
   input:focus + .slider {
-    box-shadow: 0 0 1px $veryLightBlue;
+    box-shadow: 0 0 1px 2px $darkBlue;
   }
   
   input:checked + .slider:before {

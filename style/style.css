@@ -44,6 +44,7 @@ header h1 {
   font-size: 32px;
   line-height: 39px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 header .switch {
@@ -126,8 +127,8 @@ input:checked + .slider:hover {
 }
 
 input:focus + .slider {
-  -webkit-box-shadow: 0 0 1px #f7f7fe;
-          box-shadow: 0 0 1px #f7f7fe;
+  -webkit-box-shadow: 0 0 1px 2px #4a4d60;
+          box-shadow: 0 0 1px 2px #4a4d60;
 }
 
 input:checked + .slider:before {

@@ -20,4 +20,15 @@ function switchPrice () {
     }
 }
 
+function checkKey(e) {
+    console.log(e);
+    
+
+    if (e.key === "Enter") {
+        checkbox.checked = !checkbox.checked;
+        switchPrice();
+    }
+}
+
 checkbox.addEventListener('click', switchPrice);
+checkbox.addEventListener('keypress', checkKey);
